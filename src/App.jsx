@@ -6,7 +6,12 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  return <>This is basic react app</>;
+  return (
+    <>
+      This is basic react app
+      <h2>Welcome to the react app</h2>
+    </>
+  );
 }
 
 export default App;
